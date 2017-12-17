@@ -25,3 +25,10 @@ eureka:
       defaultZone: http://discovery:8761/eureka/    # 指定注册中心的地址
   instance:
     preferIpAddress: true
+info:
+    app:
+       name: @project.artifactId@
+       encoding: @project.build.sourceEncoding@
+       java:
+            source: @java.version@
+            target: @java.version@
